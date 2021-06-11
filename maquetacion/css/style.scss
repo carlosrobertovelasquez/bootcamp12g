@@ -1,0 +1,43 @@
+$primario-cyan: hsl(180, 66%, 49%);
+$primario-dark-violet: hsl(257, 27%, 26%);
+
+$secondary-red: hsl(0, 87%, 67%);
+
+$neutral-gray: hsl(0, 0%, 75%);
+$neutral-grayish-violet: hsl(257, 7%, 63%);
+$neutral-very-dark-blue: hsl(255, 11%, 22%);
+$neutral-very-dark-violet: hsl(260, 8%, 14%);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    position: fixed;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    display: flex ;
+   justify-content: space-between;
+   top: 0;
+   left: 0;
+   align-items: center;
+   padding: 0 1rem;
+    border: 5px solid red;
+  
+    nav{
+        border:2px solid black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      ul{
+         list-style: none;
+         display: flex;
+         
+      }   
+    }
+}
+

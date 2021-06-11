@@ -1,0 +1,56 @@
+$colorbase : hsl(256, 26%, 20%);
+
+*{
+    margin: 0;
+    
+}
+body{
+    margin: 0;
+}
+.container{
+    border: 6px solid black;
+    display:flex;
+    height: 200px;
+    align-items: baseline;
+    .flex-item{
+        color: white;
+        font-size: 1.5rem;
+        
+        padding: 1rem;
+        text-align: center;
+        
+    }
+    
+}
+
+.item-1{
+    background-color: brown;
+    padding-bottom: 3rem;
+}
+
+.item-2{
+    background-color:burlywood;
+    padding-bottom: 5rem;
+}
+.item-3{
+    background-color:chocolate;
+    font-size: 3rem;
+}
+.item-4{
+    background-color: hotpink;
+}
+.item-5{
+    background-color:gold;
+}
+.item-6{
+    background-color:black;
+}
+.item-7{
+    background-color:green;
+}
+.item-8{
+    background-color:yellow;
+}
+.item-9{
+    background-color: violet;
+}
